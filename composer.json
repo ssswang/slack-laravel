@@ -1,12 +1,16 @@
 {
-    "name": "maknz/slack-laravel",
-    "description": "Laravel 4 and 5 integration for the maknz/slack package, including facades and service providers.",
+    "name": "ssswang/slack-laravel",
+    "description": "Laravel 5 integration for the maknz/slack package, including facades and service providers.",
     "keywords": ["slack", "laravel"],
     "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "maknz",
             "email": "github@mak.geek.nz"
+        },
+        {
+            "name": "Sam Wang",
+            "email": "sss.wang@utoronto.ca"
         }
     ],
     "require": {
