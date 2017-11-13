@@ -4,7 +4,7 @@ This package allows you to use [Slack for PHP](https://github.com/maknz/slack) e
 
 ## Requirements
 
-Laravel 4 or 5.
+Laravel 5.
 
 ## Installation
 
@@ -37,25 +37,7 @@ Then add the facade to your `aliases` array:
 
 Finally, publish the config file with `php artisan vendor:publish`. You'll find it at `config/slack.php`.
 
-## Laravel 4
 
-Add the `Maknz\Slack\Laravel\ServiceProvider` provider to the `providers` array in `app/config.php`:
-
-```php
-'providers' => [
-  ...
-  'Maknz\Slack\Laravel\ServiceProvider',
-],
-```
-
-Then add the facade to your `aliases` array:
-
-```php
-'aliases' => [
-  ...
-  'Slack' => 'Maknz\Slack\Laravel\Facade',
-],
-```
 
 Finally, publish the config file with `php artisan config:publish maknz/slack`. You'll find the config file at `app/config/packages/maknz/slack-laravel/config.php`.
 
