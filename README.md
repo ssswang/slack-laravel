@@ -11,7 +11,7 @@ Laravel 5.
 You can install the package using the [Composer](https://getcomposer.org/) package manager. You can install it by running this command in your project root:
 
 ```sh
-composer require maknz/slack-laravel
+composer require ssswang/slack-laravel
 ```
 
 Then [create an incoming webhook](https://my.slack.com/services/new/incoming-webhook) for each Slack team you'd like to send messages to. You'll need the webhook URL(s) in order to configure this package.
@@ -22,7 +22,7 @@ Add the `Maknz\Slack\Laravel\ServiceProvider` provider to the `providers` array 
 
 ```php
 'providers' => [
-  Maknz\Slack\Laravel\ServiceProvider::class,
+  Maknz\Slack\Laravel\ServiceProviderLaravel5::class,
 ],
 ```
 
