@@ -39,7 +39,7 @@ Finally, publish the config file with `php artisan vendor:publish`. You'll find 
 
 
 
-Finally, publish the config file with `php artisan config:publish maknz/slack`. You'll find the config file at `app/config/packages/maknz/slack-laravel/config.php`.
+Finally, publish the config file with `php artisan vendor:publish --provider="Maknz\Slack\Laravel\ServiceProviderLaravel5"`. You'll find the config file at `app/config/packages/maknz/slack-laravel/config.php`.
 
 ## Configuration
 
